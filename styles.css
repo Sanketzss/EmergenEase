@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sos-btn {
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sos-btn:hover {
+    background-color: darkred;
+}

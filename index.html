@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmergenEase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ username }} to EmergenEase</h1>
+        <form action="/sos" method="POST" id="sosForm">
+            <input type="hidden" name="location" id="locationInput">
+            <button type="submit" class="sos-btn">Send SOS Alert</button>
+        </form>
+        <a href="/logout">Logout</a>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
